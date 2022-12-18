@@ -1,0 +1,47 @@
+/* Fonts Import from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Kenia&family=Martian+Mono&family=Oswald&family=Unbounded&display=swap');
+
+
+
+/* Root for css variables */
+:root
+{
+    --main-bg-color:#222222;
+    --main-text-color:#eeeeee;
+    --normal-font-size:1.2rem;
+    --button-border:2px;
+    --equal-button-padding:5vh;
+
+    --color-one:#A30FC8;
+    --color-two:#F5009B;
+    --color-three:#FF426F;
+    --color-four:#FF894E;
+    --color-five:#FFC449;
+    --color-six:#F9F871;
+
+}
+
+
+*
+{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+
+html
+{
+    font-size:1rem;
+    text-align:center;
+    color:var(--main-text-color);
+    font-family: 'Roboto';
+    font-size: var(--normal-font-size);
+}
+
+body
+{
+    background-color: var(--main-bg-color);
+    width:100vw;
+    height:100vh;
+}
+
