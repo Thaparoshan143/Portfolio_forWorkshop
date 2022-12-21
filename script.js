@@ -26,3 +26,9 @@ function ModeChange()
     }
     isDark=!isDark;
 }
+
+
+function Form_Submit()
+{
+    alert("Backend on the Progress for the Form");
+}
