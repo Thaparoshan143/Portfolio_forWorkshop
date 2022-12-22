@@ -320,43 +320,42 @@ body
     border-radius: 30px;
 }
 
-/* Progress width styling */
-#Pro .Progress
-{
-    width: 70%;
-}
-
-#Web .Progress
-{
-    width: 70%;
-}
-
-#GDU .Progress
-{
-    width:50%;
-}
-
-#TDM .Progress
-{
-    width:20%
-}
-
-#GDP .Progress
-{
-    width:20%;
-}
-
-#DBMS .Progress
-{
-    width:10%;
-}
-/* End of progress styling */
-
 /* Projects container items color change */
+#Projects *
+{
+    background-color: transparent;
+}
+
 #Projects .items
 {
-    font-size:2em;
+    font-size:1.6em;
     background: var(--container-color-two);
+    padding:2vh 2%;
+}
+
+#Projects a
+{
+    font-size:0.5em;
+    text-decoration: none;
+    border:2px solid orangered;
+    border-radius:8px;
+    padding:0.8vh 1vw;
+}
+
+#Projects a:hover
+{
+    transition:all 0.4s ease-in-out;
+    border-radius:12px;
+    background-color:orangered;
+}
+
+#Projects p
+{
+    font-family: 'Oswald';
+    line-height: 1.4em;
+    text-align: justify;
+    margin:3vh 0;
+    font-size:0.5em;
 }
 
 
